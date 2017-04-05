@@ -1,0 +1,52 @@
+body {
+  background-color: #d9b310;
+  display: flex;
+  flex-direction: column;
+}
+
+.proverb-div {
+  width: 70vw;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.proverb {
+  color: #0b3c5d;
+}
+
+#maori {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+#english {
+  font-weight: bold;
+  font-size: 1em;
+  font-style: italic;
+}
+
+#new-btn {
+  display: flex;
+  margin: auto;
+  background-color: #318CC1;
+  color: #ffffff;
+  padding: 10px 13px;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: bold;
+}
+
+#new-btn:active{
+  /*box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.66);*/
+  background-color: #ffffff;
+  color: #318cc1;
+}
+
+#new-btn:focus {
+  outline:0;
+}
