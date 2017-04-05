@@ -1,7 +1,7 @@
 body {
-  background-color: #d9b310;
   display: flex;
   flex-direction: column;
+  font-family: Helvetica, sans-serif;
 }
 
 .proverb-div {
@@ -14,37 +14,57 @@ body {
   align-items: center;
 }
 
+hr {
+  width: 100%;
+  height: 0.8em;
+  border: none;
+  margin: 10px 0;
+}
+
+.upper {
+  background-color: #945d60;
+}
+
+.lower {
+  background-color: #626e60;
+}
+
 .proverb {
-  color: #0b3c5d;
+  color: #3c3c3c;
 }
 
 #maori {
   font-weight: bold;
   font-size: 2em;
   text-align: center;
+  padding-top: 20px;
 }
 
 #english {
   font-weight: bold;
   font-size: 1em;
   font-style: italic;
+  line-height: 130%;
+  padding-bottom: 30px;
+  overflow: auto;
 }
 
 #new-btn {
   display: flex;
   margin: auto;
-  background-color: #318CC1;
+  background-color: #af473c;
   color: #ffffff;
   padding: 10px 13px;
   border-radius: 10px;
   border-style: none;
   font-weight: bold;
+  font-size: 0.9em;
 }
 
 #new-btn:active{
-  /*box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.66);*/
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.5);
   background-color: #ffffff;
-  color: #318cc1;
+  color: #af473c;
 }
 
 #new-btn:focus {
